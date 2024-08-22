@@ -1,0 +1,30 @@
+/* Add application styles & imports to this file! */
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Responsive Container */
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .seat {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
